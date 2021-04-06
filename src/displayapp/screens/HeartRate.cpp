@@ -37,7 +37,7 @@ HeartRate::HeartRate(Pinetime::Applications::DisplayApp *app, Controllers::Heart
   lv_label_set_text(label_hr, "000");
 
   label_bpm = lv_label_create(lv_scr_act(), NULL);
-  lv_label_set_text(label_bpm, "Heart rate BPM");
+  lv_label_set_text(label_bpm, "Love BPM");
   lv_obj_align(label_bpm, label_hr, LV_ALIGN_OUT_TOP_MID, 0, -20);
 
 
